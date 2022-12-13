@@ -9,6 +9,6 @@ create table usuario(
     senha varchar(50),
     perfil enum('adm','user')
 );
-insert into usuario values(null,'andrea','admin',md5('123'),'adm');
+insert into usuario values(null,'rafaela','admin1',md5('123'),'adm');
 
 select * from usuario;
